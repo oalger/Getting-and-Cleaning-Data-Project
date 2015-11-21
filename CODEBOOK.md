@@ -41,8 +41,8 @@ The average of the mean of the magnitude of the Body Angular Acceleration during
 ##[t/f]BodyGyroMag-std()
 The average of the standard deviation of the magnitude of the Body Angular Acceleration during the activity by the subject.  Measurements are given in the time[t] and frequency[f] domains.
 ##[t/f]BodyGyroJerkMag-mean()
-The average of the mean of the magnitude of the Body Angular Acceleration during the activity by the subject.  Measurements are given in the time[t] and frequency[f] domains.
+The average of the mean of the magnitude of the Body Angular Jerk Acceleration during the activity by the subject.  Measurements are given in the time[t] and frequency[f] domains.
 ##[t/f]BodyGyroJerkMag-std()
-The average of the standard deviation of the magnitude of the Body Angular Acceleration during the activity by the subject.  Measurements are given in the time[t] and frequency[f] domains.
+The average of the standard deviation of the magnitude of the Body Angular Jerk Acceleration during the activity by the subject.  Measurements are given in the time[t] and frequency[f] domains.
 
 
