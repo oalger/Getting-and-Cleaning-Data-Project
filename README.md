@@ -2,13 +2,21 @@
 This project takes the original data files from "Human Activity Recognition Using Smartphones Dataset" and creates a compiled data set.  Along with the compiled data set, a summary data set is created and saved to a text file.
 ## Step 1:  Loading data into R
 The following files are read into R as data tables:
+
   features.txt - This file contains the names of the variables in the data set.
+  
   activity_labels.txt - This file contains the descriptive name sof the Activities in the data set.
+  
   test/subject_test.txt - This file contains the information on the Subjects in the Test data set.
+  
   test/y_test.txt - This file contains the information on the Activities in the Test data set.
+  
   test/X_test.txt - This file contains all of the measurement data in the Test data set.
+  
   train/subject_train.txt - This file contains the information on the Subjects in the Train data set.
+  
   train/y_train.txt - This file contains the information on the Activities in the Train data set.
+  
   train/X_train.txt - This file contains all of the measurement data in the Train data set.
 ## Step 2:  Merging the Train and Test data sets
 The data tables containing the Test and Train information are combined into aggregate data tables using rbind.  This gives three data tables with the subject, y, and X data for both groups.
