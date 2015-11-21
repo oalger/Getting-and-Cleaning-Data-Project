@@ -19,4 +19,6 @@ The columns for the compiled data set are assigned by using the names() function
 ## Step 5:  Subsetting by Means and Std columns
 A list of column names that contain the string "mean()" is created using the grep function.  Similarly, a list of column names that contain the string "std()" is created.  A sorted list of columns including the "Subject", "Activity", mean and std is usecd to select the columns for a new subset of the data.
 ## Step 6:  Merging the Activity Names
-
+The list of activity names from the activity_labels.txt is merged into the subset data set matching the number of the activity in each data table.
+## Step 7:  Summarizing the data set
+The subset data table is grouped by Activity and Subject and then the summarize_each function is used to calculate the mean of each column.  The result is the tidy data set that gives the mean measurements of each variable for each Activity and Subject.  The resulting data set is saved to the working directory.
